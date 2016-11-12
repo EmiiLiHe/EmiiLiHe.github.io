@@ -3,8 +3,8 @@ var menu, ikea = null;
 
 boil.Menu.prototype = {
     preload: function(){
-        game.load.spritesheet('menu', 'Assets/Spritesheets/emenuscreen.png',600,600);
-        game.load.spritesheet('textbox', 'Assets/Spritesheets/textbox.png', 1500,470);
+        game.load.spritesheet('menu', './Assets/Spritesheets/emenuscreen.png',600,600);
+        game.load.spritesheet('textbox', './Assets/Spritesheets/textbox.png', 1500,470);
     },
     create: function(){
         console.log('You are in the Menu state');

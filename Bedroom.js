@@ -7,10 +7,10 @@ boil.bedroom.prototype = {
         x = 90;
         y = 1100;
         flip = -0.45;
-        game.load.tilemap('bedroomTilemap', 'Assets/Backgrounds/bedroomTilemap.json', null,Phaser.Tilemap.TILED_JSON);
-        game.load.image('bedroomTileset', 'Assets/Backgrounds/bedroomTileset.png');
-        game.load.spritesheet('ptag', 'Assets/Spritesheets/ptag.png',450,940);
-        game.load.spritesheet('shrooms','Assets/Spritesheets/shrooms.png',450,450);  
+        game.load.tilemap('bedroomTilemap', './Assets/Backgrounds/bedroomTilemap.json', null,Phaser.Tilemap.TILED_JSON);
+        game.load.image('bedroomTileset', './Assets/Backgrounds/bedroomTileset.png');
+        game.load.spritesheet('ptag', './Assets/Spritesheets/ptag.png',450,940);
+        game.load.spritesheet('shrooms','./Assets/Spritesheets/shrooms.png',450,450);  
         //game.load.audio('pop', 'assets/Sounds/bedroom.ogg');
     },
     create: function(){
