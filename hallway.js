@@ -147,7 +147,7 @@ boil.hallway.prototype = {
     
     if (ptag.x<20 && ptag.y<1189){
         pop.stop();
-        changeState('bedroom');
+        ./changeState('bedroom');
     }
     if (ptag.x<20 && ptag.y>1695){
         pop.stop();
