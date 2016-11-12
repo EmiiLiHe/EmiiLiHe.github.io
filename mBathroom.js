@@ -184,7 +184,7 @@ boil.mBathroom.prototype = {
                 ptag.frame = 0;
             } 
         }
-    },
+    }
     
     setupFurniture: function() {
         var keylist = Object.keys(furniture);
